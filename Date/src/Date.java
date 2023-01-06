@@ -12,6 +12,12 @@ public class Date {
         this.mois = M;
         this.année = A;
     }
+    public Date(Date d){
+        this.jour = d.jour;
+        this.mois = d.mois;
+        this.année = d.année;
+
+    }
     public String intEnLettres(){
         String[] moisLettre = this.moisLettres;
         String Mois = "";
